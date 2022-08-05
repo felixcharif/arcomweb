@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+html, body{
+    height: 100%;
+}
+
+/*
+.contenido{
+    min-height: calc(100% - 4rem);
+}
+*/
+footer{
+    justify-content:end;
+    height: 60px;
+    background-color: darkcyan;
+    padding: 15px 10px 10px 10px;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+footer p{
+    padding-left: 30px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    color:aliceblue;
+    width: 50%;
+}
+footer img{
+    
+}
+
+.submenu{
+    display: flex;
+    height: 60px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    background: url(/img/barra.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.submenu p{
+    color:#8B0A0B;
+    font-family: "Open Sans";
+    font-size: 30px; 	
+    font-weight: bold;
+}
+
+.tilde{
+    color:#8B0A0B;
+    font-size: 25px; 
+}
+
+.inicio{
+    display: flex;
+    height: 600px;
+    padding: 30px 30px 30px 10px;
+    justify-content:space-around;
+    font-family: "Open Sans";
+    font-size: 17px; 
+}
+
+
+.equipos{
+    display: flex;
+    height: 600px;
+    padding: 30px 30px 30px 10px;
+    justify-content:space-around;
+    font-family: "Open Sans";
+    font-size: 17px; 
+}
+
+
+.nosotros{
+    display: flex;
+    height: 600px;
+    padding: 30px 30px 30px 10px;
+    /*justify-content: space-between;*/
+
+}
+.nosotros p{
+    padding-left: 30px;
+    font-family: "Open Sans";
+    font-size: 17px;
+    text-align:justify;
+}
+
+.nosotros img{
+    /*padding: 10px 30px 30px 30px;*/
+    border-radius: 20px;
+}
+
+
+
+
+.flex-navegacion{
+	display:flex;
+	width: 100%;
+    height: 250px;
+	flex-direction:row;
+	/*background-color: aqua;*/
+    margin: 10px auto 20px auto;
+	/*border: 2px solid black;*/
+    align-items:center;
+    justify-content: space-between;
+}
+
+.lo{
+    width: 350px;
+    height: 250px;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    padding-right: 40px;
+    justify-content:flex-end;
+}
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    
+}
+.menu li a{
+    color:rgb(0, 139, 132);
+	font-size: 20px;
+    font-family: 'Open sans';
+	text-decoration: none;
+    margin: 35px 20px 5px 20px;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+.aa2:hover .imag {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.aa2 {overflow:hidden;}
+
+.aa:hover .imag {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.aa {overflow:hidden;}
+
+.aa{
+    display: flex;
+    align-items: center;
+    height: 350px;
+    padding: 20px;
+}
+
+
+.contacto{
+	margin: 10px auto 10px auto;
+	width: 400px;
+    border-style:none;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Open Sans";
+    background-color:rgba(192, 192, 192,0.5);
+}
+
+.contacto textarea{
+    color:navy;
+    width: 400px;
+    height: 80px;
+    resize: none;
+    margin: 5px;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+.contacto input{
+    margin: 5px;
+    color:navy;
+}
+.btn-enviar{
+    font-size:18px;
+}
